@@ -1,0 +1,2011 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="http://sndprf.cz/favicon.png">
+	<title>Soundproof</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<style type="text/css">
+
+	@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900&subset=latin,latin-ext);
+	@import url(https://fonts.googleapis.com/css?family=Oswald:400,700,300&subset=latin,latin-ext);
+
+
+		body {
+			line-height: 140%;
+			margin: 10px;
+			font-size: 1em;
+			font-family: 'Roboto', 'Helvetica Neue', sans-serif;
+		}
+
+		#wrapper {
+			width: 100%;
+		}		
+
+		#logo {			
+			background: url("images/logo-sndprf-mobile.png") no-repeat;
+    		width: 100%;
+    		height: 200px;
+    		border: 0px solid;
+			margin:10% auto 0px;
+			background-size:contain;
+		}
+		ul {
+			list-style: none;
+			padding-left: 0;
+			padding-bottom: 1em;
+			border-bottom: solid 1px #efefef;
+		}
+
+		li:first-of-type {
+			font-weight: 300;'
+		}
+
+/*		li:nth-of-type(2) {
+    		font-size: 20px;
+    		font-weight: 600;
+    		padding: 5px 0;
+    	}		
+*/
+		li:nth-of-type(2) {
+			font-family: 'Oswald', sans-serif;
+    		font-size: 24px;
+    		line-height: 120%;
+    		font-weight: 300;
+    		padding: 3px 0 5px;
+    	}		    	
+
+		li:nth-of-type(3) {
+			font-weight: 300;
+			letter-spacing: 0.2px;
+		}
+
+		li:nth-of-type(4) {
+			font-weight: 300;
+			letter-spacing: 0.2px;
+		}
+
+		hr {
+			color:#fff;
+			border: solid 0px #fefefe;
+		}
+
+		a {
+			color: #18abe1;
+		  	ulansition: color 0.3s ease;
+
+		}
+
+		a:hover {
+			color: #00dcb5;
+		}
+
+
+		h1,h2{
+			text-align: left;
+			font-family: 'Oswald', Helvetica, sans-serif;
+			text-ulansform: uppercase;
+			font-size: 30px;
+			font-weight: 300;
+			margin: 3em 0 1.5em;
+		}
+
+    @media (min-width: 860px) {
+
+    	body {
+			font-size: 0.9em;
+    	}
+
+		#wrapper {
+			width: 800px;
+			margin:0 auto;
+		}		
+
+		#logo {	
+			margin:100px auto 130px;
+    		width: 670px;  		
+	   		height: 240px;
+	   		left:-560;
+		}	
+
+		li {
+    	display: inline-block;
+    	}
+
+    	li:first-of-type {
+    		width: 100px;
+    	}
+		li:nth-of-type(2) {
+			font-family: 'Roboto', Arial;
+			font-size: 1em; 
+    		width: 40%;
+    		margin-right: 5px;
+    	}
+		li:nth-of-type(3) {
+    		width: 160px;
+		    word-wrap: break-word;    		
+    	}
+		li:nth-of-type(4) {
+    		width: 200px;
+    	}    	
+
+	}
+
+@media (min-width: 1060px) {
+
+		#wrapper {
+			width: 1000px;
+			margin:0 auto;
+		}		
+
+		#logo {	
+			margin:100px auto 130px;
+    		width: 670px;  		
+	   		height: 240px;
+	   		left:-560;
+		}	
+
+    	li:first-of-type {
+    		width: 170px;
+    	}
+		li:nth-of-type(2) {
+    		width: 350px;
+    		margin-right: 5px;
+    	}
+		li:nth-of-type(3) {
+    		width: 200px;
+    	}
+		li:nth-of-type(4) {
+    		width: 250px;
+    	}    	
+}
+
+@media (max-width: 500px) {
+
+		#logo {			
+			background: url("images/logo-sndprf-mobile.png") no-repeat;
+    		width: 100%;
+    		height: 120px;
+    		border: 0px solid;
+			margin:20% auto 0px;
+			background-size:contain;
+		}
+
+		h1 {
+			display: none;
+		}
+
+}
+
+	</style>
+
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-65184447-1', 'auto');
+	  ga('send', 'pageview');
+	</script>
+<meta name="google-site-verification" content="zoFmqTfcFZvlpOmE2Fj-AeuyGhLPe4D1uwnOraCj0ro" />	
+</head>
+<body>
+<!-- FB Page plugin intro -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/cs_CZ/sdk.js#xfbml=1&version=v3.0';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<!-- FB page Plugin intro end -->
+
+<div id="logo">&nbsp;</div>
+
+<div id="wrapper">
+<h1>Upcomming Events</h1>
+
+<div class="fb-page" data-href="https://www.facebook.com/soundproofcz/" data-tabs="timeline" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/soundproofcz/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/soundproofcz/">Soundproof</a></blockquote></div>
+
+
+<h2>Past Events</h2>
+<ul>
+<li>Čtvrtenec 15.9. 2016</li>
+<li>Containall ft. Peeni Walli</li>
+<li>Mara, Czeenda</li>
+<li>Cihelná 4, Praha 1</li>
+</ul>
+<hr>
+
+
+<ul>
+<li>Nedělek 14.8.2016</li>
+<li><a href="https://www.praguepride.cz/" target="_self">Prague Pride</a></li>
+<li>DJ IA & Davvid</li>
+<li></li>
+</ul>
+<hr>
+
+<ul>
+<li>Pondělek 25.7.2016</li>
+<li>Ponton</li>
+<li>DJ IA</li>
+<li>Ponton, Střelecký ostrov, P1</li>
+</ul>
+<hr>
+
+<ul>
+<li>Pondělek 18.7.2016</li>
+<li>Ponton</li>
+<li>DJ IA</li>
+<li>Ponton, Střelecký ostrov, P1</li>
+</ul>
+<hr>
+
+<ul>
+<li>Čtvrtenec 14.7.2016</li>
+<li>Le Mirage od 20h</li>
+<li>Soundproof DJs</li>
+<li>Lublaňská 48, P2 (I.P. Pavlova)</li>
+</ul>
+<hr>
+
+<ul>
+<li>Sobota 9.7.2016</li>
+<li>United Beats 2 Warm Up</li>
+<li>Soundproof DJs</li>
+<li>Zahrádky Žižkov, Praha 3</li>
+</ul>
+<hr>
+
+
+<ul>
+<li>1. 7. 2016</li>
+<li>Rasta Pasta & Special Guests - 10th anniversary</li>
+<li>Mara, Czeenda</li>
+<li>Vila Štvanice</li>
+</ul>
+<hr>
+
+<ul>
+<li>30. 6. 2016</li>
+<li>Thai Father meets Soundproof DJs ft. Peeni Walli</li>
+<li>Mara, Czeenda</li>
+<li>Our Cafe</li>
+</ul>
+<hr>
+
+<ul>
+<li>Outerec 28.6.2016</li>
+<li>Le Mirage</li>
+<li>DJs from Nimand-IA</li>
+<li><a href="https://www.google.cz/maps/place/Le+Mirage+Club/@50.074752,14.4312901,15z/data=!4m2!3m1!1s0x0:0x318da6e325d4dd21" target="_blank">mapa »</a></li>
+</ul>
+<hr>
+
+<ul>
+<li>25. 6. 2016</li>
+<li>Karibik v Karlíně ft. Peeni Walli & Rasta Pasta</li>
+<li>Mara, Czeenda</li>
+<li>Přístav 18600</li>
+</ul>
+<hr>
+
+<ul>
+<li>16. 6. 2016</li>
+<li>Thai Father meets Soundproof DJs</li>
+<li>Mara, Czeenda, IA</li>
+<li>Our Cafe</li>
+</ul>
+<hr>
+
+<ul>
+<li>11. 6. 2016</li>
+<li>Late Nite Vibez vol. 1</li>
+<li>Mara, Czeenda ft. Ripclaw (PW)</li>
+<li>Upgrade Music Bar </li>
+</ul>
+<hr>
+
+
+
+
+<hr width="100%" color="black">
+ <ul>
+	<li>Sobota 25.6.2016</li>
+	<li>Vývrtka 2016</li>
+	<li>DJ IA, Davvid</li>	
+	<li>Peruc (cca 60 km od Prahy)</li>
+</ul>
+
+ <ul>
+	<li>Středa 22.6.2016</li>
+	<li>Ponton</li>
+	<li>DJ IA, Davvid</li>
+	<li>Ponton na Střeleckém ostrově, Praha 1</li>
+</ul>
+
+
+			 <ul>
+				<li>sobota 8.4.2016</li>
+				<li>10 let Noexit</li>
+				<li>DJ IA, Davvid</li>
+				<li>Žižkostel, Praha 3</li>
+			</ul>
+			<ul>
+				<li>sobota 16.1.2016</li>
+				<li>IA 29 Czenda 27</li>
+				<li>DJ IA, Czeenda</li>
+				<li>Le Mirage (I.P. Pavlova) od 21.00. <a href="https://www.google.cz/maps/place/Le+Mirage+Club/@50.074752,14.4312901,15z/data=!4m2!3m1!1s0x0:0x318da6e325d4dd21" target="_blank">mapa »</a></li>
+			</ul>
+			<ul>
+				<li>pondělí 28.12. 2015</li>
+				<li>Ryba 30</li>
+				<li>DJ IA</li>
+				<li>Klub FAMU</li>
+
+			</ul>
+			<ul>
+				<li>neděle 27.12. 2015</li>
+				<li>PROSTOR HUS23</li>
+				<li>Mara & Czeenda(SNDPRF) & Abassta(R2D2)</li>
+				<li>Husitská 23, P3</li>				
+			</ul>
+
+			<ul>
+				<li>čtvrtek 22.10. 2015</li>
+				<li>Le Mirage</li> 
+				<li>IA a Nimand</li>
+				<li>(I.P. Pavlova) od 21.00. <a href="https://www.google.cz/maps/place/Le+Mirage+Club/@50.074752,14.4312901,15z/data=!4m2!3m1!1s0x0:0x318da6e325d4dd21" target="_blank">mapa »</a></li>
+			</ul>
+			<ul>
+				<li>sobota 17.10. 2015</li>
+				<li>Le Mirage</li> 				
+				<li>Czeenda, IA a nikdo</li>
+				<li>(I.P. Pavlova) od 21.00. <a href="https://www.google.cz/maps/place/Le+Mirage+Club/@50.074752,14.4312901,15z/data=!4m2!3m1!1s0x0:0x318da6e325d4dd21" target="_blank">mapa »</a></li>
+			</ul>
+			<ul>
+				<li>pátek 16.10. 2015</li>
+				<li>PROSTOR HUS23</li>
+				<li>Mara & Czeenda(SNDPRF) & Satiwa(PRGMTS) & Abassta(R2D2)</li>
+				<li>Husitská 23, P3</li>
+			</ul>
+			<ul>
+				<li>středa 30.9. 2015</li>
+				<li>Letnak / Beat Ponton Picnic</li>
+				<li>IA(SNDPRF)</li>
+				<li>Ponton, Střelecký ostrov, P1</li>
+			</ul>
+
+			<ul>
+				<li>sobota 26.9. 2015</li>
+				<li>Letnak / Beat Ponton Picnic</li>
+				<li>IA(SNDPRF)</li>
+				<li>Ponton, Střelecký ostrov, P1</li>				
+			</ul>
+			<ul>
+				<li>pátek 25.9. 2015</li>
+				<li>PROSTOR HUS23</li>
+				<li>Mata & Czeenda(SNDPRF)</li>
+				<li>Husitská 23, P3</li>
+			</ul>
+			<ul>
+				<li>pátek 11.9. 2015</li>
+				<li>PROSTOR HUS23</li>				
+				<li>Czeenda(SNDPRF) & Polidk</li>
+				<li>Husitská 23, P3</li>				
+			</ul>
+			<ul>
+				<li>pátek 4.9. 2015</li>
+				<li>Meander Festival 2015</li>				
+				<li>Soundproof DJs</li>
+			</ul>
+			<ul>
+				<li>sobota 22. 8. 2015</li>
+				<li>Le Mirage</li>
+				<li>Czeenda, IA, Ezee a nikdo</li>
+				<li>Le Mirage (I.P. Pavlova) od 21.00. <a href="https://www.google.cz/maps/place/Le+Mirage+Club/@50.074752,14.4312901,15z/data=!4m2!3m1!1s0x0:0x318da6e325d4dd21" target="_blank">mapa »</a></li>
+			</ul>
+
+			<ul>
+				<li>St5eda 5. 8. 2015</li>
+				<li>Ponton</li>
+				<li>Nikdo & DJ IA</li>
+				<li>Ponton na Střeleckém ostrove od 18.00. <a href="https://www.google.cz/maps/place/50%C2%B004'53.9%22N+14%C2%B024'37.8%22E/@50.081638,14.410488,18z/data=!3m1!4b1!4m2!3m1!1s0x0:0x0" target="_blank">mapa »</a></li>
+			</ul>
+			<ul>
+				<li>4tvrtek 20. 8. 2015</li>
+				<li>Le Mirage</li>
+				<li>DJ Nimand & DJ IA</li>				
+				<li>Le Mirage (I.P. Pavlova) od 21.00. <a href="https://www.google.cz/maps/place/Le+Mirage+Club/@50.074752,14.4312901,15z/data=!4m2!3m1!1s0x0:0x318da6e325d4dd21" target="_blank">mapa »</a></li>
+			</ul>
+			<ul>
+				<li>St5eda 22. 7. 2015</li>
+				<li>Ponton</li>
+				<li>Nikdo & DJ IA</li>				
+				<li>Ponton na Střeleckém ostrove od 18.00. <a href="https://www.google.cz/maps/place/50%C2%B004'53.9%22N+14%C2%B024'37.8%22E/@50.081638,14.410488,18z/data=!3m1!4b1!4m2!3m1!1s0x0:0x0" target="_blank">mapa »</a></li>
+			</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <h2>odpřísněno</h2> -->
+
+<!-- <ul class=titlebar>
+<li class=titletext><b>TIME</b></li><li class=titletext><b>WEH?</b></li><li class=titletext><b>WH'APPEN</b></li><li class=titletext><b>RULED BY</b></li>
+</ul> -->
+
+<ul>
+<li>9-101009</li>
+<li>Ladronka</li>
+<li>Suleet</li>
+<li>stay tuned</li>
+</ul>
+
+
+<ul>
+<li>18-190909</li>
+<li><a href="?l=events;l2=2;id=4008" rel="nofollow" class="odkaz">[ MAELSTÖRM ]</a></li>
+<li><a href="?l=events;l2=2;id=4008" rel="nofollow" class="odkaz">[ MAELSTÖRM ]</a></li>
+<li><a href="?l=events;l2=2;id=4008" rel="nofollow" class="odkaz">[ MAELSTÖRM ]</a></li>
+</ul>
+
+<ul>
+<li>110809</li>
+<li><a href="?l=topic;id=16219" rel="nofollow" class="odkaz">[ HUS23 ]</a></li>
+<li>DJ & BAR CONulOL</li>
+<li>DAVVID + IA</li>
+</ul>
+
+<ul>
+<li>040809</li>
+<li><a href="?l=topic;id=16475" rel="nofollow" class="odkaz">[ Mlékojedy - Free-d-bar ]</a></li>
+<li>Davvid's B-Day</li>
+<li>DAVVID + IA + guest</li>
+</ul>
+
+<ul>
+<li>100709</li>
+<li><a href="?l=topic;id=4456" rel="nofollow" class="odkaz">[ CROSS ]</a></li>
+<li>Reggae, Dubstep, Raggajungle</li>
+<li>DAVVID + IA - killout</li>
+</ul>
+
+
+<ul>
+<li>090709</li>
+<li><a href="?l=topic;l2=1;id=3580" rel="nofollow" class="odkaz">[ WAKATA ]</a></li>
+<li>Jungle, Raggajungle</li>
+<li>IA + DAVVID, & SPOQ</li>
+</ul>
+
+<ul>
+<li>070709</li>
+<li><a href="?l=topic;id=4456" rel="nofollow" class="odkaz">[ CROSS ]</a></li>
+<li>Raggajungle</li>
+<li>SOUNDPROOF + BASETIX - horni stage</li>
+</ul>
+
+<ul>
+<li>26-280609</li>
+<li>ŽIZNÍKOV</li>
+<li><a href="?l=events;l2=2;id=3346" rel="nofollow" class="odkaz">[ Reggae Ethnic Session meets RealBeat ]</a></li>
+<li><a href="?l=events;l2=2;id=3346" rel="nofollow" class="odkaz">[ Reggae Ethnic Session meets RealBeat ]</a></li>
+</ul>
+
+<ul>
+<li>200609</li>
+<li>
+<a href="?l=topic;id=15480" rel="nofollow" class="odkaz">[ SYMBIOZA ]</a></li>
+<li>Cajout</li>
+<li>IA</li>
+</ul>
+
+<ul>
+<li>160609</li>
+<li><a href="?l=topic;l2=1;id=3580" rel="nofollow" class="odkaz">[ WAKATA ]</a></li>
+<li>Reggae, Dancehall, Raggajungle</li>
+<li>DJ HLAVA + IA</li>
+</ul>
+
+<ul>
+<li>130609</li>
+<li><a href="?l=topic;id=4456" rel="nofollow" class="odkaz">[ CROSS ]</a></li>
+<li>Reggae, Dubstep, Raggajungle</li>
+<li>DAVVID & IA</li>
+</ul>
+
+
+<ul>
+<li>060609</li>
+<li><a href="?l=events;l2=2;id=3231" rel="nofollow" class="odkaz">[ MILADA ]</a></li>
+<li>DALSI BENEFICNI AKCE NA MILADE // POMOC HUDBOU</li>
+<li>3RD HAND <font size="1">[ss]</font>, SPOQ & LION DON <font size="1">[Sofa Rockers]</font>, Dubble U <font size="1">[RnF]</font>, DJ HLAVA <font size="1">[Superplayboy]</font>, RUDEBOY RHYTHM, IA</li>
+</ul>
+
+
+<ul>
+<li>230509</li>
+<li>MUZA</li>
+<li>DnB, Jungle, Raggajungle</li>
+<li>SATIWA, DAVVID & IA</li>
+</ul>
+
+<ul>
+<li>220509</li>
+<li><a href="?l=topic;id=4456" rel="nofollow" class="odkaz">[ CROSS ]</a></li>
+<li>Reggae, Dubstep, Raggajungle</li>
+<li>DAVVID & IA</li>
+</ul>
+
+
+<ul>
+<li>090509</li>
+<li>nákej bunkr P</li>
+<li>Dubstep/Break // Reggae chill</li>
+<li>IA a mnozí další</li>
+</ul>
+
+<ul>
+<li>240409</li>
+<li><a href="http://lalibela.cz/" target="blank" rel="nofollow" class="odkaz">LALIBELA</a></li>
+<li>????</li>
+<li>DJ HLAVA & hosté</li>
+</ul>
+
+<ul>
+<li>210409</li>
+<li><a href="?l=topic;id=4456" rel="nofollow" class="odkaz">[ CROSS ]</a></li>
+<li>????</li>
+<li>DAVVID & IA</li>
+</ul>
+
+
+
+<ul>
+<li>040409</li>
+<li><a href="http://sedmvlku.cz/" target="blank" rel="nofollow" class="odkaz">7 VLKU</a></li>
+<li>Reggae, Dubstep, Raggajungle</li>
+<li>DAVVID & IA</li>
+</ul>
+
+<ul>
+<li>030409</li>
+<li><a href="?l=topic;l2=1;id=1164" rel="nofollow" class="odkaz">[ BOILER ]</a></li>
+<li>DUBSTEP, Raggajungle</li>
+<li>IA & DAVVID</li>
+</ul>
+
+
+<ul>
+<li>270309</li>
+<li>ABATON</li>
+<li>CZECH DRUMNBASS AWARDS</li>
+<li></li>
+</ul>
+
+<ul>
+<li>100309</li>
+<li><a href="?l=topic;id=4456" rel="nofollow" class="odkaz">[ CROSS ]</a></li>
+<li>DnB, Raggajungle</li>
+<li>MAD4CE, ROLNÍK, SOUNDPROOF</li>
+</ul>
+
+
+
+<ul>
+<li>030309</li>
+<li><a href="?l=topic;l2=1;id=518" rel="nofollow" class="odkaz">[ SHADOW AZYL ]</a></li>
+<li>Dubstep, Reggae, DnB, Raggajungle</li>
+<li>DAVVID, MEDIS</li>
+</ul>
+
+<ul>
+<li>300109</li>
+<li><a href="?l=topic;l2=1;id=4456" rel="nofollow" class="odkaz">[ CROSS ]</a></li>
+<li>DnB<br>Dubstep, Raggajungle</li>
+<li>MUTATED FORMS<font size="1">[EST/UK]</font>, REVERB, ROMANA, BEAST 67, C.N.B<br>IA + DAVVID</li>
+</ul>
+
+<ul>
+<li>260109</li>
+<li><a href="?l=topic;l2=1;id=3580" rel="nofollow" class="odkaz">[ WAKATA ]</a></li>
+<li>Reggae, Dubstep n more</li>
+<li>IA + DAVVID & ELZA</li>
+</ul>
+
+<ul>
+<li>140109</li>
+<li><a href="?l=topic;l2=1;id=4456" rel="nofollow" class="odkaz">[ CROSS ]</a></li>
+<li><a href="?l=events;l2=2;id=1879" rel="nofollow" class="odkaz">[SUPPORT YOUR LOCAL SQUAT-ERS]</a></li>
+<li>R'N'F, SNDPRF, GUMA GUAR, ELZA, YARDESH</li>
+</ul>
+
+
+<ul>
+<li>060109</li>
+<li><a href="?l=topic;l2=1;id=13433" rel="nofollow" class="odkaz">[ RADIO23 ]</a></li>
+<li>Na tři králem hrajem stále</li>
+<li>SATIWA & DJ HLAVA + IA, DAVVID</li>
+</ul>
+
+<ul>
+<li>050109</li>
+<li><a href="?l=topic;l2=1;id=3580" rel="nofollow" class="odkaz">[ WAKATA ]</a></li>
+<li>Raggajungle</li>
+<li>IA + DAVVID & SPOQ <font size="1">[Fredoledo]</font></li>
+</ul>
+
+
+
+
+
+<ul>
+<li>020109</li>
+<li><a href="?l=topic;id=16219" rel="nofollow" class="odkaz">[ HUS23 ]</a></li>
+<li>Reggae, Dubstep a Raggajungle</li>
+<li>IA + DAVVID</li>
+</ul>
+
+
+
+
+<ul>
+<li>261208</li>
+<li><a href="?l=topic;id=16219" rel="nofollow" class="odkaz">[ HUS23 ]</a></li>
+<li>Reggae, Dubstep a Raggajungle</li>
+<li>IA + DAVVID</li>
+</ul>
+
+<ul>
+<li>251208</li>
+<li><a href="?l=topic;id=15480" rel="nofollow" class="odkaz">[ SYMBIOZA ]</a></li>
+<li>Čajout</li>
+<li>IA</li>
+</ul> 
+
+<ul>
+<li>221208</li>
+<li><a href="?l=topic;id=13169" rel="nofollow" class="odkaz">[ BUNKR PARUKÁŘKA ]</a></li>
+<li>X-mass V-mass</li>
+<li>ONE DROP NATION, DREDD DIVIZION, SOUNDPROOF, FREDOLEDO, LION DON<br>Reggae, Hip-Hop, Dubstep, Breakbeat, Rave, Ragga-jungle, Breakcore</li>
+</ul>
+
+<ul>
+<li>191208</li>
+<li><a href="?l=topic;id=15664" rel="nofollow" class="odkaz">[ RAMBAJZ ] VLAŠIM</a></li>
+<li>DnB, Jungle, Raggajungle</li>
+<li>DAVVID + IA, SATIWA + ED <font size="1">[3RD HAND]</font></li>
+</ul>
+
+<ul>
+<li>161208</li>
+<li><a href="?l=topic;l2=1;id=3580" rel="nofollow" class="odkaz">[ WAKATA ]</a></li>
+<li>Reggae, Dubstep</li>
+<li>IA + DAVVID & ISM <font size="1">[UK]</font></li>
+</ul>
+
+<ul>
+<li>121208</li>
+<li><a href="?l=topic;id=15664" rel="nofollow" class="odkaz">[ RAMBAJZ ] VLAŠIM</a></li>
+<li>DnB, Jungle, Raggajungle, Reggae, Dubstep</li>
+<li>DAVVID, SATIWA, ED  <font size="1">[3RD HAND]</font>, STHANTHA + MC DECKER  <font size="1">[SYNDICATE]</font></li>
+</ul>
+
+
+<ul>
+<li>111208</li>
+<li><a href="?l=topic;l2=1;id=1164" rel="nofollow" class="odkaz">[ BOILER ]</a></li>
+<li>Dubstep</li>
+<li>IA</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<ul>
+<li>101208</li>
+<li><a href="http://lalibela.cz/" target="blank" rel="nofollow" class="odkaz">LALIBELA</a></li>
+<li>Raggajungle</li>
+<li>IA</li>
+</ul>
+
+<ul>
+<li>091208</li>
+<li><a href="?l=topic;l2=1;id=518" rel="nofollow" class="odkaz">[ SHADOW AZYL ]</a></li>
+<li>Dubstep, Raggajungle</li>
+<li>DAVVID, LION_DON, MEDIS</li>
+</ul>
+
+<ul>
+<li>061208</li>
+<li><a href="http://sedmvlku.cz/" target="blank" rel="nofollow" class="odkaz">7 VLKŮ</a>
+</li>
+<li>Johnny's B-Day</li>
+<li>IA</li>
+</ul>
+
+
+
+<ul>
+<li>051208</li>
+<li>SHAMBALA - Sázava</li>
+<li>Dubstep, D!N!B, Raggajungle</li>
+<li>ERROR <font size="1">[MEX/CZ]</font>, EMPHONIC <font size="1">[ORANGERECORDINGS]</font>, SERIAL + ICARO + DAVE <font size="1">[NOEXIT]</font> & IA</li>
+</ul>
+
+
+<ul>
+<li>041208</li>
+<li><a href="?l=topic;id=15480" rel="nofollow" class="odkaz">[ SYMBIOZA ]</a></li>
+<li>Čajout</li>
+<li>IA + ADLA <font size="1">[Rasta Pasta]</font></li>
+</ul> 
+
+
+<ul>
+<li>031208</li>
+<li><a href="http://lalibela.cz/" target="blank" rel="nofollow" class="odkaz">LALIBELA</a></li>
+<li>Raggajungle</li>
+<li>IA</li>
+</ul>
+
+<ul>
+<li>021208</li>
+<li><a href="?l=topic;l2=1;id=3580" rel="nofollow" class="odkaz">[ WAKATA ]</a></li>
+<li>Jungle, Raggajungle</li>
+<li>IA + DAVVID</li>
+</ul>
+
+
+<ul>
+<li>271108</li>
+<li><a href="?l=topic;id=15480" rel="nofollow" class="odkaz">[ SYMBIOZA ]</a></li>
+<li>Čajout</li>
+<li>IA + ADLA <font size="1">[Rasta Pasta]</font></li>
+</ul> 
+
+<ul>
+<li>261108</li>
+<li><a href="?l=topic;id=16219" rel="nofollow" class="odkaz">[ HUS23 ]</a></li>
+<li>Reggae,Dubstep</li>
+<li>IA + DAVVID</li>
+</ul>
+
+<ul>
+<li>251108</li>
+<li><a href="?l=topic;l2=1;id=3580" rel="nofollow" class="odkaz">[ WAKATA ]</a></li>
+<li>Reggae, Dubstep</li>
+<li>IA + DAVVID, MEDIS <font size="1">[Basetix]</font>, LION DON <font size="1">[Sofa Rockers]</font></li>
+</ul>
+
+<ul>
+<li>251108</li>
+<li><a href="?l=topic;l2=1;id=13433" rel="nofollow" class="odkaz">[ RADIO23 ]</a></li>
+<li>Acid, Breaky ......</li>
+<li>KINETIX, BEDUAN & SPOQ <font size="1">[Fredoledo]</font>, IA <font size="1">[Moderator]</font></li>
+</ul>
+
+<ul>
+<li>211108</li>
+<li><a href="?l=topic;id=4456" rel="nofollow" class="odkaz">[ CROSS ]</a></li>
+<li>1st: Jungle, Raggajungle, DnB<br>
+2ns: Raggajugnle / Techno</li>
+<li>BASETIX + SNDPRF<br>
+SNDPRF + NSK</li>
+</ul>
+
+
+<ul>
+<li>211108</li>
+<li>
+<a href="?l=topic;id=15480" rel="nofollow" class="odkaz">[ SYMBIOZA ]</a></li>
+
+
+<li>Čajout, Cross warm up</li>
+<li>IA + DAVVID</li>
+</ul>
+
+
+<ul>
+<li>141108</li>
+<li><a href="http://www.mananamusicbar.cz/" target="_blank" rel="nofollow" class="odkaz">MAŇANA</a></li>
+<li>Reggae, Dubstepz, DnB</li>
+<li>DAVVID + NOEXIT</li>
+</ul>
+
+
+<ul>
+<li>131108</li>
+<li><a href="?l=topic;id=15480" rel="nofollow" class="odkaz">[ SYMBIOZA ]</a></li>
+<li>Čajout</li>
+<li>IA + ADLA <font size="1">[Rasta Pasta]</font> + SPOQ <font size="1">[Fredoledo]</font></li>
+</ul>
+
+<ul>
+<li>121108</li>
+<li><a href="http://lalibela.cz/" target="blank" rel="nofollow" class="odkaz">LALIBELA</a></li>
+<li>Reggae, Dubstep</li>
+<li>IA</li>
+</ul>
+
+<ul>
+<li>061108</li>
+<li>
+<a href="?l=topic;id=15480" rel="nofollow" class="odkaz">[ SYMBIOZA ]</a></li>
+<li>Čajout</li>
+<li>IA</li>
+</ul>
+
+<ul>
+<li>051108</li>
+<li><a href="http://lalibela.cz/" target="blank" rel="nofollow" class="odkaz">LALIBELA</a></li>
+<li>Reggae, Dubstep, Raggajungle</li>
+<li>IA</li>
+</ul>
+
+<ul>
+<li>041108</li>
+<li><a href="?l=topic;id=16219" rel="nofollow" class="odkaz">[ HUS23 ]</a></li>
+<li>Hubky Dubkz</li>
+<li>IA</li>
+</ul>
+
+
+
+
+
+<ul>
+<li>301008</li>
+<li><a href="?l=topic;id=14114" rel="nofollow" class="odkaz">[ JABOK ]</a></li>
+<li>Reggae</li>
+<li>IA + TEMATIQUE <font size="1">[One Drop Nation]</font></li>
+</ul>
+
+
+
+<ul>
+<li>301008</li>
+<li><a href="?l=topic;id=16219" rel="nofollow" class="odkaz">[ HUS23 ]</a></li>
+<li>Hubky Dubky</li>
+<li>IA + DAVVID</li>
+</ul>
+
+
+<ul>
+<li>251008</li>
+<li><a href="http://sedmvlku.cz/" target="blank" rel="nofollow" class="odkaz">7 VLKŮ</a>
+</li>
+<li>Raggajungle</li>
+<li>IA + DAVVID</li>
+</ul>
+
+<ul>
+<li>241008</li>
+<li>ABATON</li>
+<li><a href="http://getpunked.info/" rel="nofollow" class="odkaz">GET PUNKED<br>+RAGGAJUNGLE STAGE</a></li>
+<li>MAMPI SWIFT<font size="1">[UK]</font>, KATCHA, P.NO, DEADLY VIPERZ, GREEN FLASH<br> RICH, BASTIEN, IA, DADA, ANUS, PAPAFREDO </li>
+</ul>
+
+<ul>
+<li>211008</li>
+<li>WAKATA</li>
+<li>Dubstep, Reggae, Hip-Hop</li>
+<li>DAVVID</li>
+</ul>
+
+<ul>
+<li>181008</li>
+<li>CROSS dole</li>
+<li>Dubstep, Raggajungle</li>
+<li>IA + DAVVID</li>
+</ul>
+
+
+<ul>
+<li>171008</li>
+<li>BUNKR - Parukářka</li>
+<li>AMEN BREAK vol. II</li>
+<li>Fredoledo, Soundproof, One Drop Nation, Dredd Divizion, Kapa, Inside crew, Peeni Walli</li>
+</ul>
+
+<ul>
+<li>161008</li>
+<li>JABOK</li>
+<li>Hip Hop, Reggae</li>
+<li>IA + DAVVID & info soon</li>
+</ul>
+
+<ul>
+<li>141008</li>
+<li>RADIO23</li>
+<li>Raggajungle</li>
+<li>SPOQ, E_D & IA</li>
+</ul>
+
+<ul>
+<li>081008</li>
+<li>SYMBIOZA</li>
+<li>ČAJOUT</li>
+<li>IA + DAVVID</li>
+</ul>
+
+
+<ul>
+<li>03-051008</li>
+<li><a href="http://freezefest.cz" rel="nofollow" class="odkaz">FREEZE FEST</a></li>
+<li>Art, Music, Theaule ......</li>
+<li><a href="http://freezefest.cz" rel="nofollow" class="odkaz">Check webside for more info</a></li>
+</ul>
+
+<ul>
+<li>260908</li>
+<li>Freee někde u Říčan</li>
+<li>Reggae, Dubstep, Jungle, D'n'B, Tek</li>
+<li>Soundproof, Flowtekk, Noexit</li>
+</ul>
+
+<ul>
+<li>250908</li>
+<li>CROSS</li>
+<li>FREEZE FEST BENEFIT</li>
+<li>AZTEK + QBE <font size="1">[Meulo]</font>, DIRTYHARRY <font size="1">[Deltakwadrant]</font>, CYBORKA <font size="1">[Cute Dorps]</font>, BEDUAN <font size="1">[Fredoledo]</font><br>
+CHONGX + MAD4CE <font size="1">[RnF]</font>, SPOQ <font size="1">[Fredoledo]</font>, LION DON <font size="1">[Sofa Rockers]</font><br>
+IA + DAVVID & GUESTS</li>
+</ul>
+
+<ul>
+<li>200908</li>
+<li>KUNRAFEST</li>
+<li>LIVE & DJ STAGE</li>
+<li><a href="http://kunrafest.esulanky.cz" rel="nofollow" class="odkaz">more info, more!</a></li>
+</ul>
+
+<ul>
+<li>180908</li>
+<li>CROSS - dole</li>
+<li>Reggae, Dubstep, Ragga-Jungle</li>
+<li>IA, Davvid</li>
+</ul>
+
+<ul>
+<li>170908</li>
+<li>SYMBIOZA</li>
+<li>ČAJOUT</li>
+<li>IA + SPOQ</li>
+</ul>
+
+
+
+<ul>
+<li>160908</li>
+<li>RADIO23</li>
+<li>Crossin Over</li>
+<li>FREDOLEDO & SPOL.</li>
+</ul>
+
+<ul>
+<li>120908</li>
+<li><a href="http://crossclub.cz/program-detail/567/" target="_blank" rel="nofollow" class="odkaz">Lost in Džungle!</a></li>
+<li>Ragga-Jungle</li>
+<li>21-22:30 - IA + Davvid</li>
+</ul>
+
+<ul>
+<li>100908</li>
+<li>SYMBIOZA</li>
+<li>Reggae, Dubstep</li>
+<li>IA + Adla</li>
+</ul>
+
+<ul>
+<li>080908</li>
+<li>WAKATA</li>
+<li>Reggae, Dubstep</li>
+<li>IA + DAVVID</li>
+</ul>
+
+<ul>
+<li>030908</li>
+<li>HUS23</li>
+<li>Reggae, Dubstep</li>
+<li>IA</li>
+</ul>
+
+
+<ul>
+<li>260808</li>
+<li>HUS23</li>
+<li>Reggae, Dubstep</li>
+<li>IA + DAVVID</li>
+</ul>
+
+
+
+<ul>
+<li>220808</li>
+<li>CROSS</li>
+<li>od všeho ulochu, pak jungly a teky taky</li>
+<li>IA, Davvid, + Bazzi</li>
+</ul>
+
+<ul>
+<li>120808</li>
+<li>CROSS</li>
+<li>Reggae, Dubstep, Acid, Breakbeat // FREEMIX</li>
+<li>IA & BEDUAN <font size="1">(Fredoledo)</font></li>
+</ul>
+
+
+<ul>
+<li>110808</li>
+<li>WAKATA</li>
+<li>Unofficial RB VIP afterparty</li>
+<li>IA + DAVVID</li>
+</ul>
+
+<ul>
+<li>090808</li>
+<li>REAL BEAT</li>
+<li>Reggae</li>
+<li>IA + DAVVID</li>
+</ul>
+
+<ul>
+<li>050808</li>
+<li>CROSS - dole</li>
+<li>Ragga-jungle</li>
+<li>CHONG X, SPOQ, BEDUAN, DAVVID + IA</li>
+</ul>
+
+<ul>
+<li>300708</li>
+<li>CROSS ZAHRÁDKA</li>
+<li>Reggae</li>
+<li>IA + DAVVID</li>
+</ul>
+
+<ul>
+<li>260708</li>
+<li>LET IT ROLL</li>
+<li>Hubky Dubky</li>
+<li>IA</li>
+</ul>
+
+
+<ul>
+<li>200708</li>
+<li>MIGHTY SOUNDS</li>
+<li>Hubky Dubky</li>
+<li>IA + DAVVID</li>
+</ul>
+
+
+
+
+
+<ul>
+<li>190708</li>
+<li>CROSS ZAHRÁDKA</li>
+<li>Reggae</li>
+<li>IA + DAVVID</li>
+</ul>
+
+
+<ul>
+<li>190708</li>
+<li>LOM ÚHOLIČKY</li>
+<li>Old / New Raggajungle</li>
+<li>IA + DAVVID</li>
+</ul>
+
+
+
+<ul>
+<li>160708</li>
+<li>HUS23</li>
+<li>Reggae & Dubby dubstep</li>
+<li>IA + DAVVID</li>
+</ul>
+
+<ul>
+<li>080708</li>
+<li>RADIO23</li>
+<li>techno from 20hod <a href="http://radio23.cz" rel="nofollow" class="odkaz">http://radio23.cz!!</a> </li>
+<li>BEDUAN <font size="1">(Fredoledo)</font>, TIK <font size="1">
+(Meulo)</font>, <font size="1">
+(Moderuje)</font> IA</li>
+</ul>
+
+<ul>
+<li>070708</li>
+<li>WAKATA</li>
+<li>Reggae, Dubstep, Raggajungle</li>
+<li>IA + DAVVID</li>
+</ul>
+
+
+<ul>
+<li>020708</li>
+<li>CROSS</li>
+<li>Reggae, Dubstep, Acid, Breakbeat // FREEMIX</li>
+<li>IA & BEDUAN <font size="1">(Fredoledo)</font></li>
+</ul>
+
+<ul>
+<li>290608</li>
+<li>ŽIZNÍKOV</li>
+<li>DANCEHALL STAGE 18-20hod  </li>
+<li>DAVVID + IA</li>
+</ul>
+
+<ul>
+<li>240608</li>
+<li>CROSS</li>
+<li><a href="http://www.top-rankin.net" rel="nofollow" class="odkaz">CLASH - Top Rankin</a></li>
+<li>DJ HEV <font size="1">vs</font> EL MINO <font size="1">vs</font> MONGHOL; DAMALISTIK <font size="1">(FR)</font> <font size="1">[after]</font> + SOUNDPROOF <font size="1">[warm-up]</font></li>
+</ul>
+
+
+<ul>
+<li>240608</li>
+<li>RADIO23</li>
+<li>ON AIR from 20hod <a href="http://radio23.cz" rel="nofollow" class="odkaz">http://radio23.cz!!</a> </li>
+<li>IL_CONTECANTO <font size="1">(Dredddivizion)</font>, BARE <font size="1">(One Drop Nation)</font>, LION_DON, DAVVID + IA</li>
+</ul>
+
+
+
+<ul>
+<li>210608</li>
+<li><a href="http://fireshow.cz/zonglovani/pece-21-6-2008" rel="nofollow" class="odkaz">ŽONGLOVÁNÍ - park Židovské pece</a></li>
+<li>Reggae + Dubstepy</li>
+<li>IA + DAVVID</li>
+</ul>
+
+<ul>
+<li>200608</li>
+<li>7 VLKŮ</li>
+<li>Raggajungle</li>
+<li>IA + DAVVID</li>
+</ul>
+
+<ul>
+<li>170608</li>
+<li>PUNTO</li>
+<li>Freezestyle beats</li>
+<li>BEDUAN <font size="1">(Fredoledo)</font>+ IA</li>
+</ul>
+
+
+
+
+
+<ul>
+<li>100608</li>
+<li>RADIO23</li>
+<li>ON AIR from 20hod <a href="http://radio23.cz!!" rel="nofollow" class="odkaz">http://radio23.cz!!</a> </li>
+<li>SOUNDPROOF, BEDUAN <font size="1">(Fredoledo)</font> - Dubstep, Jungle & Breakbeat</li>
+</ul>
+
+<ul>
+<li>060608</li>
+<li>HUSITSKÁ23</li>
+<li>Reggae popcorn</li>
+<li>PERI FERI & IA</li>
+</ul>
+
+<ul>
+<li>050608</li>
+<li>ROZJETÁ ŽÁBA</li>
+<li>Dubstep, Raggajungle</li>
+<li>IA + DAVVID & KING JOHN KILL</li>
+</ul>
+
+<ul>
+<li>040608</li>
+<li>HUSITSKÁ23</li>
+<li>Reggae, Dubby Dubstep</li>
+<li>IA + DAVVID</li>
+</ul>
+<ul>
+<li>30-310508</li>
+<li>TOČNÍK</li>
+<li>REGGAE MEETING VOL IIX</li>
+<li><a href="http://www.reggaemeeting.net" rel="nofollow" class="odkaz">program</a></li>
+</ul>
+
+
+
+<ul>
+<li>270508</li>
+<li>RADIO23</li>
+<li>ON AIR from 20hod <a href="http://radio23.cz!!" rel="nofollow" class="odkaz">http://radio23.cz!!</a> </li>
+<li>FREDOLEDO DJ's & IA</li>
+</ul>
+
+
+
+
+<ul>
+<li>200508</li>
+<li>CROSS</li>
+<li>CLASH - Top Rankin</li>
+<li>MAD KRIIISKA <font size="1">vs</font> BABYLON ROCKER <font size="1">vs</font> ROLLAND; PEENI WALLI <font size="1">[after]</font> + SOUNDPROOF <font size="1">[warm-up]</font></li>
+</ul>
+
+
+<ul>
+<li>150508</li>
+<li>VZDUCHOLOĎ</li>
+<li>Hip-Hop, Reggae</li>
+<li>Mc ŘEZNÍK & IA</li>
+</ul>
+
+<ul>
+<li>140508</li>
+<li>HUSITSKÁ23</li>
+<li>Reggae, Dubby Dubstep</li>
+<li>IA + DAVVID</li>
+</ul>
+
+
+<ul>
+<li>130508</li>
+<li>SHADOW AZYL</li>
+<li>Downtempo, Dubstep</li>
+<li>IA, LION DON <font size="1">(Sofa Rockers)</font></li>
+</ul>
+
+
+
+<ul>
+<li>010508</li>
+<li>XT3</li>
+<li>Reggae, Ska/Punk, Dubstep/Jungle</li>
+<li>TOUR DE BARS + KOZY V KORZETU, IA</li>
+</ul>
+
+<ul>
+<li>300408</li>
+<li>ZDIBY AREA</li>
+<li>DIGITAL INQUISITION</li>
+<li>NOEXIT, SOUNDPROOF, PND</li>
+</ul>
+
+<ul>
+<li>300408</li>
+<li>PÉČKO</li>
+<li>ČÁRY</li>
+<li>IA, PLECH, VOREL, VENTOLIN</li>
+</ul>
+
+<ul>
+<li>290408</li>
+<li>RADIO 23</li>
+<li>ON AIR from 20hod <a href="http://radio23.cz!!" rel="nofollow" class="odkaz">http://radio23.cz!!</a> </li>
+<li>FREDOLEDO DJ's & IA</li>
+</ul>
+
+<ul>
+<li>280408</li>
+<li>SYMBIOZA</li>
+<li>ČAJOUT [17-22hod]</li>
+<li>IA + DX</li>
+</ul>
+
+
+<ul>
+<li>260408</li>
+<li>ULITA, ústí n labem</li>
+<li>dubstep - breakz - jungle - techno - vsechno</li>
+<li>BEDUAN + SPOQ <font size="1">(Fredoledo)</font>, IA</li>
+</ul>
+
+
+<ul>
+<li>250408</li>
+<li>PARUKÁŘKA</li>
+<li>BACKSHOT DEM DOWN<br>
+oldskool jungle, raggajungle:<br>
+reggae, rave, dubstep, breakz:</li>
+<li><br>M.DRUM + IL_CONTECANTO <font size="1">(Dredd Divizion)</font>,  SPOQ + PAPAFREDO <font size="1">(Fredoledo)</font>, BARE <font size="1">(One Drop Nation)</font>, IA + DAVVID<br>
+MONGHOL + EZZE <font size="1">(Dredd Divizion)</font>, LEWIN + TEMATIQUE <font size="1">(One Drop Nation)</font>, BEDUAN <font size="1">(Fredoledo)</font>, IA + DAVVID, LION DON</li>
+</ul>
+
+
+<ul>
+<li>250408</li>
+<li>7 VLKŮ</li>
+<li>Raggajungle</li>
+<li>KING JOHN KILL <font size="1">(Rzdz)</font>, IL CONTECANTO <font size="1">(Dredd Divizion)</font>, IA</li>
+</ul>
+
+<ul>
+<li>240408</li>
+<li>CROSS</li>
+<li>ROCK N ROLLS ROYCE<br>
+R'n'RR & Raggajungle:<br>
+Chillout:</li>
+<li><br>DISPLAY TEAM <font size="1">(UK)</font>, SLAM & HOWIE <font size="1">(SWI)</font>, SOUNDPROOF & GUESTS<br>
+SOUNDPROOF & GUESTS</li>
+</ul>
+
+<ul>
+<li>190408</li>
+<li>PARUKÁŘKA</li>
+<li>BABYLON CAN NUKE US<br>
+Jungle, Breakcore, Dubstep, Breakbeat - 2 stages: </li>
+<li><br>DJ RUM <font size="1">(UK)</font>, CODESHIFT <font size="1">(UK)</font>, MASH FOR CASH <font size="1">(UK)</font>, RIPCLAW + MIHAAL <font size="1">(Penni Walli)</font>, LUNA <font size="1">(Bassinfection Sownd)</font>, Deus Ex Machina <font size="1">(D.E.M. Mythology)</font>, I'M SORRY <font size="1">(Guma Guar)</font>, NEUROALEX <font size="1">(Jazz'n'Dub ulumpet)</font>, MC MAD REEFAH <font size="1">(Otaku Massive)</font>, MC MIKATCHOU, IA</li>
+</ul>
+
+<ul>
+<li>150408</li>
+<li>RADIO 23</li>
+<li>ON AIR from 20hod !! rave/acid</li>
+<li>LION DON <font size="1">(Sofa rockers)</font>, BEDUAN <font size="1">(Fredoledo)</font>, IL CONTECANTO <font size="1">(Dredd Divizion)</font>, IA</li>
+</ul>
+
+<ul>
+<li>110408</li>
+<li>VDOVA [TÁBOR]</li>
+<li>SOUTHERN<br>
+Dubstep, Jungle, Break, Tekkno</li>
+<li>IA, SATIWA <font size="1">(Vat)</font>, ALISul + ERROR <font size="1">(Pentatonica ss)</font></li>
+</ul>
+
+
+<ul>
+<li>050408</li>
+<li>SYMBIOZA</li>
+<li>ČAJOUT [19-22hod]</li>
+<li>IA</li>
+</ul>
+
+
+<ul>
+<li>280308</li>
+<li>WAKATA</li>
+<li>Dubstep, Early breakz, Jungle</li>
+<li>LION DON, IA, ISM <font size="1">(UK)</font></li>
+</ul>
+
+<ul>
+<li>260308</li>
+<li>SYMBIOZA</li>
+<li>ČAJOUT [17-22hod]</li>
+<li>IA</li>
+</ul>
+
+<ul>
+<li>250308</li>
+<li>SHADOW AZYL</li>
+<li>Reggae, Hip-hop, Dubstep</li>
+<li>BASSINFECTION SOWND, IA, SASHAN <font size="1">(ulubka live)</font></li>
+</ul>
+
+
+<ul>
+<li>240308</li>
+<li>LA MIRAGE</li>
+<li>zlobeníčko !</li>
+<li>IA, SPOQ <font size="1">(Fredoledo)</font></li>
+</ul>
+
+<ul>
+<li>210308 </li>
+<li>MAulIX</li>
+<li>JUNGLIST UNITY IV<br>
+Raggajungle old/nu skool stage: <br>Reggae stage: </li>
+<li><br>YUKIMURA <font size="1">(Rootz´n´Future, Mustakillah sound)</font>,
+ MAD4CE <font size="1">(Rootz´n´Future)</font>,
+ CHONGX <font size="1">(Rootz´n´Future)</font>, 
+ SHIN aka LIKKLE D <font size="1">(GardenZitty Elders)</font>,
+ COCOJAMMIN,
+ BASETIX UNITY DJS<br>PEENI WALLI + MC Mr.Cocoman,
+ BABYLON ROCKER,
+ IA</li>
+</ul>
+
+<ul>
+<li>180308</li>
+<li>CROSS</li>
+<li>CHILLOUT</li>
+<li>IA, DAVVID, LION DON, SPOQ <font size="1">(Fredoledo)</font></li>
+</ul>
+
+
+<ul>
+<li>150308</li>
+<li>PARUKÁŘKA</li>
+<li>K-1<br>
+dnb:<br>
+raggajungle/tekk:</li>
+<li><br>2K + PANORAMA <font size="1">(Shadowbox)</font>, M4Y4 <font size="1">(Conspiracydjs)</font>, BLUE4 + VOREL <font size="1">(Blackmesa)</font><br>
+DAVVID + IA, KING JOHN KILL + MACCINO <font size="1">(Rzdz)</font>, PEPEK <font size="1">(Urna)</font>, CWALDA <font size="1">(Tsunami)</font></li>
+</ul>
+
+<ul>
+<li>140308</li>
+<li>WAKATA</li>
+<li>Dubstep, Early breakz, Jungle</li>
+<li>LION DON <font size="1">(Sofa Rockers)</font>, SPOQ <font size="1">(Fredoledo)</font>, <font size="1">(supported by)</font> IA</li>
+</ul>
+
+<ul>
+<li>130308</li>
+<li>PARUKÁŘKA</li>
+<li>SOLID FOUNDATION 3<br>
+reggae (1960-1985):<br>
+jungle (1990-1996):</li>
+<li><br>PEENI WALLI, ONE DROP NATION, SOUNDPROOF<br>
+MAD4CE <font size="1">(Rootz´n´Future)</font>, RIPCLAW <font size="1">(Peeni Walli)</font>, SOUNDPROOF</li>
+</ul>
+
+
+<ul>
+<li>070308</li>
+<li>KINO AERO</li>
+<li>CHILLOUT</li>
+<li>BASSINFECTION SOWND, IA, MAD REEFAH <font size="1">(Unplugged)</font>, SASHAN <font size="1">(ulubka live)</font></li>
+</ul>
+
+<ul>
+<li>030308</li>
+<li>CROSS</li>
+<li>PAPA SLAVÍ NAROYKZZ<br>
+acid/tekno:<br>
+jungle/mash-up:</li>
+<li><br>PAPAFREDO + BEDUAN <font size="1">(Fredoledo)</font>, AZTEK + QBE <font size="1">(Meulo)</font>, ALERT <font size="1">(FatalNoise)</font>, BUKAJ <font size="1">(Obada)</font><br>
+SPOQ <font size="1">(Fredoledo)</font>, IA, MEDIS <font size="1">(Basetix)</font>, LION DON <font size="1">(SofaRockers)</font> + možná přijde i kouzelník</li>
+</ul>
+
+<ul>
+<li>310108 </li>
+<li>CROSS</li>
+<li>BENEFICE pro BigBrotherAwards<br>1ststage: <br>2ndstage: </li>
+<li><br>BUKKAKE KARAOKE <font size="1">(postHC)</font> + ANYWAY <font size="1">(metal HC ulash)</font>; dj's CROME, YUKIMURA, RAVEBOY<br>DAVVID & IA, PEENI WALLI</li>
+</ul>
+
+<ul>
+<li>250108 </li>
+<li>BORDO</li>
+<li>AFTERPARTY</li>
+<li>IA + ISM + ???</li>
+</ul>
+
+<ul>
+<li>300108</li>
+<li>CROSS</li>
+<li>CHILLOUT</li>
+<li>SPOQ, PAPAFREDO & IA</li>
+</ul>
+
+<ul>
+<li>250108 </li>
+<li>CROSS</li>
+<li>DRUMSTATION: <br>chillout: </li>
+<li>BLACK SUN EMPIRE <font size="1">(NED)</font>, MORE BEAT, RIDO, BEAST 67, MARIHAI, P.NO<br>DAVVID & IA</li>
+</ul>
+
+<ul>
+<li>100108 </li>
+<li>ROCK CAFE</li>
+<li>AFTERPARTY KEPLER</li>
+<li>PEENI WALLI, DAVVID & IA, Ψ CHLUP</li>
+</ul>
+
+<ul>
+<li>030108 </li>
+<li>WAKATA</li>
+<li>Untitled</li>
+<li>DAVVID & IA</li>
+</ul>
+
+<ul>
+<li>291207 </li>
+<li>BUNKR PARUKARKA</li>
+<li>main stage - hardtekk, hardcore<br>chillout - jungle</li>
+<li>SPECulO SS<br>DAVVID & IA, SATIWA</li>
+</ul>
+
+<ul>
+<li>221207 </li>
+<li>WAKATA</li>
+<li>REGGAE, DUBSTEP, JUNGLE, EARLY BREAKS</li>
+<li>DREDD DIVIZION + IA</li>
+</ul>
+
+
+<ul>
+<li>061207 </li>
+<li>CROSS</li>
+<li>CHILLOUT</li>
+<li>DAVVID & IA</li>
+</ul>
+
+<ul>
+<li>301107 </li>
+<li>BÍLÁ VRÁNA</li>
+<li>REGGAE, DUBSTEP, JUNGLE</li>
+<li>DAVVID, SHAMAAN</li>
+</ul>
+
+<ul>
+<li>291107 </li>
+<li>WAKATA</li>
+<li>DUBSTEP</li>
+<li>DAVVID & IA, LION DON</li>
+</ul>
+
+<ul>
+<li>271107 </li>
+<li>CROSS</li>
+<li>CHILLOUT</li>
+<li>DAVVID & IA, LION DON</li>
+</ul>
+
+
+<ul>
+<li>221107</li>
+<li>STYX</li>
+<li>Untitled</li>
+<li>DAVVID & IA</li>
+</ul>
+
+<ul>
+<li>271007 </li>
+<li>MILADA</li>
+<li>EASY SATURDAY</li>
+<li>COCOMAN + IA + DJ TOUST</li>
+</ul>
+
+<ul>
+<li>251007</li>
+<li>CROSS</li>
+<li>mainstage: REGGAE <br> chillout: JUNGLE</li>
+<li>CALI P <font size="1">(GUA)</font>, BLACK FANTOM <font size="1">(JAM)</font>, RAGGAMUFFIN WHITEMAN <font size="1">(BEL)</font>,DAVVID & IA + LION MOVEMENT<br>VARGAS <font size="1">(POL)</font>, UNDSOUNDBWOY <font size="1">(AUS)</font>, BASETIX UNITY </li>
+</ul>
+
+<ul>
+<li>241007 </li>
+<li>BOILER</li>
+<li>DUBSTEP, FREESTYLE, RAGGAJUNGLE</li>
+<li>BEDUAN + SPOQ + IA</li>
+</ul>
+
+<ul>
+<li>121007</li>
+<li>7 VLKŮ</li>
+<li>Untitled</li>
+<li>DAVVID & IA</li>
+</ul>
+
+<ul>
+<li>111007</li>
+<li>STYX</li>
+<li>Untitled</li>
+<li>DAVVID & IA</li>
+</ul>
+
+<ul>
+<li>051007</li>
+<li>FÁVAL</li>
+<li>DnB/Jungle parket )<br> Reggae/Dancehall/Dub parket</li>
+<li>PAUL B <font size="1">(RU)</font>, MC COPPA <font size="1">(UK)</font>, MOREBEAT, SOLDIK, MERKUR, PAWOUK <br> BABYLON ROCKER <font size="1">(Praggaulonik)</font>, BASSINFLECTION CREW ft. MC MIKATCHOU + MINA JOINT + NGOMAU ft. MATEYKA & EL, DAVVID & IA</li>
+</ul>
+
+<ul>
+<li>041007</li>
+<li>CROSS</li>
+<li>mainstage: Jungle <br> chillout: Reggae / Jungle</li>
+<li>BASETIX UNITY, RICH <br> DAVVID & IA + Flow <font size="1">(GER)</font></li>
+</ul>
+
+<ul>
+<li>021007</li>
+<li>CROSS</li>
+<li>Jungle massiv:<br> Reggae sowndz:</li>
+<li>SUBDEGA <font size="1">(Reverseart)</font>, EDDRUM <font size="1">(Neurokyme)</font>, SPOQ <font size="1">(Fredoledo)</font> & guest <br> BABYLON ROCKER <font size="1">(Praggaulonik)</font> + IA + LION DON</li>
+</ul>
+
+<ul>
+<li>090807</li>
+<li>CROSS</li>
+<li>ZAHRADKA 18-22HOD</li>
+<li>DAVVID & IA</li>
+</ul>
+
+<ul>
+<li>270707</li>
+<li>CROSS</li>
+<li>ZAHRADKA 18-22HOD</li>
+<li>DAVVID & IA</li>
+</ul>
+
+<ul>
+<li>260707</li>
+<li>CROSS</li>
+<li>ZAHRADKA 18-22HOD</li>
+<li>DAVVID & IA</li>
+</ul>
+
+<ul>
+<li>190707</li>
+<li>CROSS</li>
+<li>CHILLOUT </li>
+<li>DAVVID & IA</li>
+</ul>
+
+
+<ul>
+<li>030707</li>
+<li>BUNKR PARUKARKA</li>
+<li>REAL SHELTER ROCK</li>
+<li>BASSINFLECTION CREW, SNDPRF, PEENI WALLI, LION DON, ELZA</li>
+</ul>
+
+<ul>
+<li>290607</li>
+<li>WAKATA</li>
+<li>Untitled</li>
+<li>DAVVID & IA</li>
+</ul>
+
+<ul>
+<li>290607</li>
+<li>REGGAE.ETHINC.SESSION</li>
+<li>Untitled</li>
+<li>DAVVID & IA</li>
+</ul>
+
+<ul>
+<li>260607</li>
+<li>CROSS</li>
+<li>CHILLOUT</li>
+<li>TOUST, PERIFERI, MAROCCO, COCOMAN, IA</li>
+</ul>
+
+<ul>
+<li>190607</li>
+<li>CROSS</li>
+<li>CHILLOUT</li>
+<li>DAVVID & IA</li>
+</ul>
+
+
+<ul>
+<li>150607</li>
+<li>VDOVA BAR, TÁBOR</li>
+<li>Untitled</li>
+<li>FREDOLEDO & SNDPRF</li>
+</ul>
+
+<ul>
+<li>090607</li>
+<li>7 VLKŮ</li>
+<li>Untitled</li>
+<li>DAVVID & IA</li>
+</ul>
+
+<ul>
+<li>010607</li>
+<li>CROSS</li>
+<li>CHILLOUT - IMPERIALISTIC NIGHT</li>
+<li>DAVVID & IA</li>
+</ul>
+
+<ul>
+<li>180507</li>
+<li>MIR, UHERSKE HRADISTE</li>
+<li>BASTA FIDLI 8</li>
+<li>PEENI-WALLI & IA</li>
+</ul>
+
+<ul>
+<li>180507</li>
+<li>7 VLKŮ</li>
+<li>Untitled</li>
+<li>DAVVID & host: SHAMAAN</li>
+</ul>
+
+<ul>
+<li>110507</li>
+<li>VDOVA BAR, TÁBOR</li>
+<li>Untitled</li>
+<li>DAVVID & IA</li>
+</ul>
+
+<ul>
+<li>080507</li>
+<li>CROSS</li>
+<li>XAVIER BAUMAXA & </li>
+<li>DAVVID, GASTON, IA</li>
+</ul>
+
+<ul>
+<li>010507</li>
+<li>WAKATA</li>
+<li>Untitled</li>
+<li>DAVVID & host: COCOMAN</li>
+</ul>
+
+<ul>
+<li>290407</li>
+<li>ČARODKY</li>
+<li>Untitled</li>
+<li>DAVVID & IA</li>
+</ul>
+
+<ul>
+<li>280407</li>
+<li>ČARODKY</li>
+<li>Untitled</li>
+<li>DAVVID & IA</li>
+</ul>
+
+<ul>
+<li>060407</li>
+<li>VDOVA BAR, TÁBOR</li>
+<li>Untitled</li>
+<li>IA</li>
+</ul>
+
+<ul>
+<li>030407</li>
+<li>CROSS</li>
+<li>CHILLOUT</li>
+<li>GASTON, IA</li>
+</ul>
+
+
+<ul>
+<li>310307</li>
+<li>B3</li>
+<li>Untitled</li>
+<li>DAVVID, GASTON, IA, SHAMAN</li>
+</ul>
+
+<ul>
+<li>280307</li>
+<li>CROSS</li>
+<li>JUNGLE TALK 1</li>
+<li>DAVVID, GASTON, IA</li>
+</ul>
+
+<ul>
+<li>200307</li>
+<li>CROSS</li>
+<li>CHILLOUT</li>
+<li>PERIFERI & hosté: GASTON, IA</li>
+</ul>
+
+<ul>
+<li>170307</li>
+<li>7 VLKŮ</li>
+<li>Untitled</li>
+<li>DREDD DIVIZION & host: IA</li>
+</ul>
+
+<ul>
+<li>200307</li>
+<li>CROSS</li>
+<li>CHILLOUT</li>
+<li>DJ TOUST & hosté: COCOMAN, GASTON</li>
+</ul>
+
+<ul>
+<li>090307</li>
+<li>MAulIX</li>
+<li>SulICTLY UNDERGROUND 4</li>
+<li>DAVVID, IA & DREDD DIVIZION, KAPA SOUND, BASETIX</li>
+</ul>
+
+<ul>
+<li>090307</li>
+<li>BOILER</li>
+<li>NAROZKY</li>
+<li>DREDD DIVIZION & hosté: DAVVID</li>
+</ul>
+
+<ul>
+<li>280207</li>
+<li>BORDO</li>
+<li>AFTERPARTY PANSKÁ</li>
+<li>ŠVIHADLO, ZÁVIŠ, SOUNDPROOF</li>
+</ul>
+
+<ul>
+<li>280207</li>
+<li>7 VLKŮ</li>
+<li>Untitled</li>
+<li>DAVVID, GASTON, IA</li>
+</ul>
+
+
+<ul>
+<li>280207</li>
+<li>CROSS</li>
+<li>CHILLOUT</li>
+<li>GASTON & TOUST</li>
+</ul>
+
+
+<ul>
+<li>140207</li>
+<li>CROSS</li>
+<li>CHILLOUT</li>
+<li>DAVVID, GASTON, IA & host COCOMAN</li>
+</ul>
+
+
+<ul>
+<li>100207</li>
+<li>7 VLKŮ</li>
+<li>Untitled</li>
+<li>DAVVID, GASTON, IA & hosté RASHID, TOUST</li>
+</ul>
+
+<ul>
+<li>090207</li>
+<li>7 VLKŮ</li>
+<li>Untitled</li>
+<li>DAVVID, IA</li>
+</ul>
+
+<ul>
+<li>060207</li>
+<li>BORDO</li>
+<li>Untitled</li>
+<li>DREDD DIVIZION & hosté GASTON, IA, PETHULA</li>
+</ul>
+
+
+<ul>
+<li>030207</li>
+<li>CROSS</li>
+<li>BAKKLE UP CLASH </li>
+<li>DAVVID,IA & host MAROKO</li>
+</ul>
+
+<ul>
+<li>260107</li>
+<li>B3</li>
+<li>NAROZKY</li>
+<li>DAVVID, GASTON</li>
+</ul>
+
+<ul>
+<li>230107</li>
+<li>CROSS</li>
+<li>CHILLOUT</li>
+<li>DAVVID, GASTON,IA</li>
+</ul>
+
+
+<ul>
+<li>220107</li>
+<li>FREE MONDAYS ROXY</li>
+<li>POSLEDNÍ KONCERT KAPELY VOKOKOS</li>
+<li>PEENI-WALLI & SNDPRF</li>
+</ul>
+
+
+<ul>
+<li>190107</li>
+<li>CROSS</li>
+<li>CHILLOUT</li>
+<li>PERIFERI & GASTON</li>
+</ul>
+
+<ul>
+<li>190107</li>
+<li>ZÁKLADNA (ŽIŽKOV) </li>
+<li>Untitled</li>
+<li>YANEK & MAROKO (TUZZEX) & host: IA</li>
+</ul>
+
+<ul>
+<li>010107</li>
+<li>VELENKA</li>
+<li>VIP SILVESTAH PARTY DAY 4 // NEW YEAR</li>
+<li>DAVVID, GASTON, IA</li>
+</ul>
+
+<ul>
+<li>311206</li>
+<li>VELENKA</li>
+<li>VIP SILVESTAH PARTY DAY 3 // CELEBRATE</li>
+<li>DAVVID, GASTON, IA</li>
+</ul>
+
+<ul>
+<li>301206</li>
+<li>VELENKA</li>
+<li>VIP SILVESTAH PARTY DAY 2 // WARM UP</li>
+<li>DAVVID, GASTON, IA</li>
+</ul>
+
+<ul>
+<li>291206</li>
+<li>VELENKA</li>
+<li>VIP SILVESTAH PARTY DAY 1 // ARRIVAL</li>
+<li>DAVVID, GASTON, IA</li>
+</ul>
+
+<ul>
+<li>271206</li>
+<li>7 VLKŮ</li>
+<li>Untitled</li>
+<li>DAVVID, GASTON, IA</li>
+</ul>
+
+<ul>
+<li>261206</li>
+<li>STYX</li>
+<li>ROOTS REGGAE UNITY BENEFIT PARTY</li>
+<li>GASTON, ADMIRÁL KOLÍBAL, MISTER COCOMAN, MR.MENTION, (PERIFERI) HOGO FOGO, TOUST</li>
+</ul>
+
+<ul>
+<li>231206</li>
+<li>7 VLKŮ</li>
+<li>Untitled</li>
+<li>DAVVID, GASTON, IA</li>
+</ul>
+
+<ul>
+<li>191206</li>
+<li>CROSS</li>
+<li>CHILLOUT</li>
+<li>DAVVID, GASTON, IA & host TOUST</li>
+</ul>
+
+<ul>
+<li>041206</li>
+<li>CROSS</li>
+<li>CHILLOUT</li>
+<li>GASTON,IA</li>
+</ul>
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
